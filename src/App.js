@@ -1,4 +1,8 @@
 import React, { Component } from "react";
+import MenuUtama from "./Page/MenuUtama";
+import MenuProduct from "./Page/MenuProduct";
+import MenuKontak from "./Page/MenuKontak";
+import MenuTentangKami from "./Page/MenuTentangKami";
 
 const Header = () => {
     return (
@@ -21,6 +25,10 @@ class App extends Component {
         return (
             <div>
                 <Header />
+                <MenuUtama />
+                <MenuProduct />
+                <MenuKontak />
+                <MenuTentangKami />
                 <Footer />
             </div>
         );
